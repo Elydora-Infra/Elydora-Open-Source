@@ -241,3 +241,17 @@ Elydora welcomes official and community SDKs. A conformant SDK must implement th
 - Use [GitHub Issues](https://github.com/Elydora-Infrastructure/Elydora-Open-Source/issues) for bug reports and feature requests.
 - For security vulnerabilities, **do not open a public issue**. Email the maintainers directly so the issue can be addressed before public disclosure.
 - Include as much context as possible: Elydora version, SDK version, OS, steps to reproduce, and expected vs. actual behavior.
+
+## Opening a pull request on git.zacharyzhang.com
+
+Forking is disabled on this server. Open pull requests with AGit instead:
+
+1. Register an account at https://git.zacharyzhang.com
+2. Clone, commit your changes, then push to a `refs/for/<target-branch>` ref:
+
+   ```bash
+   git clone https://git.zacharyzhang.com/Elydora-Infrastructure/Elydora-Open-Source.git
+   git push origin HEAD:refs/for/main -o topic=<short-name> -o title="<PR title>" -o description="<PR body>"
+   ```
+
+3. To update the pull request, push again with the same `topic`.
