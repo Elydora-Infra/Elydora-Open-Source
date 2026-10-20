@@ -8,12 +8,12 @@
 
 Tamper-evident audit trails with cryptographic proof for every AI agent action.
 
-[![GitHub Stars](https://img.shields.io/github/stars/Elydora-Infrastructure/Elydora-Open-Source?style=social)](https://github.com/Elydora-Infrastructure/Elydora-Open-Source)
+[![GitHub Stars](https://img.shields.io/github/stars/Elydora-Infra/Elydora-Open-Source?style=social)](https://github.com/Elydora-Infra/Elydora-Open-Source)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Node SDK](https://img.shields.io/badge/node%20sdk%20mirror-v2.1.1-green.svg)](sdks/node/)
 [![Python SDK](https://img.shields.io/badge/python%20sdk%20mirror-v2.1.1-green.svg)](sdks/python/)
 [![Go SDK](https://img.shields.io/badge/go%20sdk%20mirror-v2.1.1-green.svg)](sdks/go/)
-[![CI](https://img.shields.io/github/actions/workflow/status/Elydora-Infrastructure/Elydora-Open-Source/ci.yml?branch=main&label=CI)](https://github.com/Elydora-Infrastructure/Elydora-Open-Source/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/Elydora-Infra/Elydora-Open-Source/ci.yml?branch=main&label=CI)](https://github.com/Elydora-Infra/Elydora-Open-Source/actions)
 [![Website](https://img.shields.io/badge/website-elydora.com-purple.svg)](https://elydora.com)
 
 [Website](https://elydora.com) · [Quick Start](#quick-start) · [Documentation](#documentation) · [API Reference](#api-reference) · [SDKs](#sdks) · [Contributing](#contributing)
@@ -84,7 +84,7 @@ The result is a complete, verifiable history of everything your AI agents have e
 ### One-Command Deploy
 
 ```bash
-git clone https://github.com/Elydora-Infrastructure/Elydora-Open-Source.git
+git clone https://github.com/Elydora-Infra/Elydora-Open-Source.git
 cd Elydora-Open-Source
 
 # One-command install: generates all secrets and starts every service
@@ -129,7 +129,7 @@ Elydora-Open-Source/
 ├── sdks/
 │   ├── node/            # @elydora/sdk, Node.js and TypeScript
 │   ├── python/          # elydora, sync and async clients
-│   └── go/              # github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2
+│   └── go/              # github.com/Elydora-Infra/Elydora-Go-SDK/v2
 ├── helm/
 │   └── elydora/         # Kubernetes Helm chart
 ├── integrations/        # catalog.json: provider IDs and hook contracts
@@ -680,7 +680,7 @@ elydora keygen
 **Installation:**
 
 ```bash
-go get github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2
+go get github.com/Elydora-Infra/Elydora-Go-SDK/v2
 ```
 
 **Requirements:** Go 1.21+
@@ -694,7 +694,7 @@ import (
     "fmt"
     "os"
 
-    elydora "github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2"
+    elydora "github.com/Elydora-Infra/Elydora-Go-SDK/v2"
 )
 
 func main() {
@@ -922,7 +922,7 @@ Elydora is configured via environment variables. Copy `.env.example` to `.env` a
 
 If Elydora is useful to you, please consider giving it a star on GitHub. It helps others discover the project and motivates continued development.
 
-[![Star on GitHub](https://img.shields.io/github/stars/Elydora-Infrastructure/Elydora-Open-Source?style=social)](https://github.com/Elydora-Infrastructure/Elydora-Open-Source)
+[![Star on GitHub](https://img.shields.io/github/stars/Elydora-Infra/Elydora-Open-Source?style=social)](https://github.com/Elydora-Infra/Elydora-Open-Source)
 
 ---
 

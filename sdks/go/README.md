@@ -5,7 +5,7 @@ Official Go SDK for the [Elydora](https://elydora.com) tamper-evident audit plat
 ## Installation
 
 ```bash
-go get github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2
+go get github.com/Elydora-Infra/Elydora-Go-SDK/v2
 ```
 
 Requires Go 1.21+. The CLI uses focused TOML and JSONC parsers to preserve user-owned agent configuration.
@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"log"
 
-	elydora "github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2"
+	elydora "github.com/Elydora-Infra/Elydora-Go-SDK/v2"
 )
 
 func main() {
@@ -62,7 +62,7 @@ The SDK includes a CLI for installing audit hooks into AI coding agents.
 Agent IDs map to one physical directory directly under `~/.elydora`; portable filename rules and physical directory/config checks apply before writes or recursive removal. Ambiguous uninstall discovery requires an explicit agent ID.
 
 ```bash
-go install github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2/cmd/elydora@latest
+go install github.com/Elydora-Infra/Elydora-Go-SDK/v2/cmd/elydora@latest
 
 elydora install \
   --agent claudecode \

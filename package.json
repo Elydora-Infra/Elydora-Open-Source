@@ -18,7 +18,7 @@
   "homepage": "https://elydora.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Elydora-Infrastructure/Elydora-Open-Source.git"
+    "url": "https://github.com/Elydora-Infra/Elydora-Open-Source.git"
   },
   "license": "Apache-2.0",
   "scripts": {

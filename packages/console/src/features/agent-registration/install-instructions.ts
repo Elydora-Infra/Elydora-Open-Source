@@ -42,7 +42,7 @@ const INSTALLER: Record<SdkLanguage, string> = {
 };
 const BOOTSTRAP: Partial<Record<SdkLanguage, string>> = {
   python: 'python -m pip install elydora',
-  go: 'go install github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2/cmd/elydora@latest',
+  go: 'go install github.com/Elydora-Infra/Elydora-Go-SDK/v2/cmd/elydora@latest',
 };
 
 interface CommandValues {
@@ -154,7 +154,7 @@ client.set_kid(${JSON.stringify(identity.kid)})`;
   }
 
   if (language === 'go') {
-    return `go get github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2
+    return `go get github.com/Elydora-Infra/Elydora-Go-SDK/v2
 
 requireEnv := func(name string) string {
     value, ok := os.LookupEnv(name)

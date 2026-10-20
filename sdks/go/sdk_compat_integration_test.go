@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	elydora "github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2"
+	elydora "github.com/Elydora-Infra/Elydora-Go-SDK/v2"
 )
 
 func randomHex(n int) string {

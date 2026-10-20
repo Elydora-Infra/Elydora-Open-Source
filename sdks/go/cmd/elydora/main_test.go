@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2/cmd/elydora/plugins"
+	"github.com/Elydora-Infra/Elydora-Go-SDK/v2/cmd/elydora/plugins"
 )
 
 func setMainTestHome(t *testing.T) string {

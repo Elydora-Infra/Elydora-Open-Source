@@ -1,4 +1,4 @@
-module github.com/Elydora-Infrastructure/Elydora-Go-SDK/v2
+module github.com/Elydora-Infra/Elydora-Go-SDK/v2
 
 go 1.21.0
 
